@@ -1,4 +1,5 @@
 #!/bin/bash
+apt-get update && apt-get install -y docker-engine
 
 git clone https://github.com/tophj-ibm/docker.git
 cd docker
