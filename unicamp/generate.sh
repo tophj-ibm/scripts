@@ -20,7 +20,7 @@ if [ ! -d "$DIR_NAME" ]; then
 			git clone https://github.com/tophj-ibm/docker.git
 			cd docker
 			git fetch --all
-			git checkout unicamp-$DOCKER_VERSION
+			git checkout unicamp-v$DOCKER_VERSION
 			DOCKER_BUILD_PKGS=$DISTRO make deb
 			echo " - - - - - - - - - - - - - - - - - - - - "
 			echo ""
@@ -45,7 +45,7 @@ if [ ! -d "$DIR_NAME" ]; then
 		git clone https://github.com/tophj-ibm/docker.git
 		cd docker
 		git fetch --all
-		git checkout unicamp-$DOCKER_VERSION
+		git checkout unicamp-v$DOCKER_VERSION
 		DOCKER_BUILD_PKGS= make deb
 		echo " - - - - - - - - - - - - - - - - - - - - "
 		echo ""

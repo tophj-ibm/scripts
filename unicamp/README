@@ -1,4 +1,9 @@
-Branch for Docker v1.12.x with cherry-picks for making debs
+##Branch for Docker v1.13.0 on ppc64le is equivalent to release
+
+
+
+
+##Branch for Docker v1.12.x with cherry-picks for making debs
 
 cherry-picked commits include
 
@@ -16,5 +21,8 @@ added ubuntu-trusty
 #da382044d3630bcdeb1eac64f2f7ad476e0cf007
 
 [ppc64le] add yakkety yak to 'make deb'
+
+
+
 
 
