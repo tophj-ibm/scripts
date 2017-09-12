@@ -1,7 +1,7 @@
 #!/bin/bash
 
-DEFAULT_DISTRO_VERSIONS=(ubuntu-trusty ubuntu-xenial ubuntu-yakkety) 
-DOCKER_VERSION=1.13.0
+DEFAULT_DISTRO_VERSIONS=(ubuntu-trusty) 
+DOCKER_VERSION=17.04.0-ce
 
 DIR_NAME="docker-$DOCKER_VERSION"
 if [ ! -d "$DIR_NAME" ]; then
